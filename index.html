@@ -1,4 +1,4 @@
-Latest commit
+<!-- Latest commit
 naiknetra
 naiknetra
 Add files via upload
@@ -31,9 +31,51 @@ options in the dropdown menu.
 /search-results.html?q=dogs&format=
 If there is a format selected from the dropdown, the URL should look something like the following example:
 
-/search-results.html?q=dogs&format=photos
+/search-results.html?q=dogs&format=photos -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="homepage" size="12">
+        <fieldset >
+          <legend> Library Search Engine</legend>
+          <div class="mb-3">
+           
+            <input type="text" id="TextInput" class="form-control" placeholder=" Search!">
+          </div>
+          <div class="mb-3">
+           
+            <select id="Select" class="form-select" aria-placeholder="Select Format">
+              <option> select</option>
+            </select>
+          </div>
+          
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+    </form>
 
 
 
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
 
