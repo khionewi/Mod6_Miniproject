@@ -17,3 +17,32 @@ text center if not done in bootstrap
 and create labels */
 
 /* media screen query if necessary */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 100vh; /* Ensure the body fills the viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.homepage {
+    width: 70%; /* Adjust the width as needed */
+    margin: auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding to the form */
+    background-color: whitesmoke;
+}
+
+fieldset {
+    padding: 20px; /* Add padding to the fieldset */
+    size: 2rem;
+}
+
+/* Adjust the width of the input and select elements */
+.form-control,
+.form-select {
+    width: 100%; /* Make the input and select elements fill the width of the form */
+}
+
+
